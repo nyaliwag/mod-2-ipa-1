@@ -58,7 +58,7 @@ def material_waste(total_material, material_units, num_jobs, job_consumption):
     '''
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
-    x = (num_jobs*job_consumption)-(total_material)
+    x = (total_material)-(num_jobs*job_consumption)
     y = (material_units)
     return f'{x}{y}'
 
